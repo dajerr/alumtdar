@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+    /* Puedes agregar más formatos de fuente aquí si tienes diferentes archivos para compatibilidad */
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Usando la fuente Poppins como primera opción */
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ @keyframes colorChange {
+    0% {
+      color: white;
+    }
+     25% {
+         color: #ecfeff;
+     }
+    50% {
+      color: #06b6d4;
+    }
+     75%{
+         color: #0e7490;
+     }
+    100% {
+      color: #0f766e;
+    }
+  }
+  .moving-color {
+    animation: colorChange 3s infinite alternate;
