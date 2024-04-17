@@ -32,4 +32,14 @@ body {
     }
   }
   .moving-color {
-    animation: colorChange 3s infinite alternate;
+    animation: colorChange 3s infinite alternate;}
+
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #59c4d1;
+  border-radius: 5px;
+}
